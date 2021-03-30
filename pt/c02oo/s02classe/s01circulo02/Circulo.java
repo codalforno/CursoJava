@@ -7,4 +7,8 @@ public class Circulo {
     void mostraArea(){
         System.out.println("Area do círculo: " + Math.PI * raio * raio);
     }
+
+    double area(){
+        return Math.PI * raio * raio;
+    }
 }
